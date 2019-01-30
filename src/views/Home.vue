@@ -8,7 +8,7 @@
         <v-btn v-if="!isLoggedIn" v-on:click.stop.prevent :to="{ path: '/signup' }"  flat>Sign up</v-btn>
         <v-btn v-if="isLoggedIn" v-on:click.stop.prevent :to="{ path: '/drive/u/0/my-drive' }"  flat>My Drive</v-btn>
         <v-btn icon target="_blank" href="https://github.com/Anu1601CS/media-manager" flat>
-          <v-icon>code</v-icon>
+          <v-icon>fab fa-github-alt</v-icon>
         </v-btn>
       </v-toolbar>
       <v-content>

@@ -24,9 +24,12 @@ import OnlineState from '@/components/Tool/OnlineState'
 import Alert from '@/components/Tool/Alert'
 
 import 'vuetify/dist/vuetify.min.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 import './styles/mediamanager.scss'
 
-Vue.use(Vuetify)
+Vue.use(Vuetify, {
+  iconfont: 'fa'
+})
 Vue.use(VueAnalytics, {
   id: 'UA-131081167-1',
   router
