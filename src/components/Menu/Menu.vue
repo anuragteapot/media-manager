@@ -29,8 +29,8 @@ export default {
   data: () => ({
     itemId: Math.floor(Math.random() * 100000000 + 1),
     items: [
-      { title: "Open", icon: "open_in_browser", link: "open" },
-      { title: "Delete", icon: "delete", link: "delete" },
+      { title: "Open", icon: "fas fa-folder-open", link: "open" },
+      { title: "Delete", icon: "fas fa-trash alt", link: "delete" },
       { title: "Share", icon: "share", link: "share" },
       { title: "Rename", icon: "spellcheck", link: "rename" },
       { title: "Download", icon: "cloud_download", link: "download" },

@@ -67,15 +67,16 @@ export default {
     },
     selected: [],
     iconsMap: {
-      mp3: "library_music",
-      zip: "archive",
-      mp4: "movie",
-      dir: "folder",
-      png: "insert_photo",
-      jpeg: "insert_photo",
-      jpg: "insert_photo",
-      gif: "insert_photo",
-      default: "insert_drive_file"
+      mp3: "fas fa-music",
+      zip: "fas fa-file-archive",
+      mp4: "fas fa-file-video",
+      dir: "fas fa-folder",
+      png: "fas fa-image",
+      jpeg: "fas fa-image",
+      jpg: "fas fa-image",
+      gif: "fas fa-image",
+      pdf: "fas fa-file-pdf",
+      default: "fas fa-file"
     },
     headers: [
       {

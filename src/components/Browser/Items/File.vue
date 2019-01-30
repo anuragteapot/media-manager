@@ -35,7 +35,7 @@
         size="50"
         class="m-video-play-icon"
         v-if="item.extension.toLowerCase() == 'mp4'"
-      >play_circle_filled</v-icon>
+      >fas fa-play-circle</v-icon>
 
       <v-card-title>
         <img v-if="item.extImg && !isMobile" class="extensionImage" :src="item.extImg">
@@ -53,10 +53,10 @@ export default {
   data() {
     return {
       iconsMap: {
-        mp3: "library_music",
+        mp3: "fas fa-music",
         zip: "archive",
-        mp4: "music_video",
-        default: "insert_drive_file"
+        mp4: "fas fa-file-video",
+        default: "fas fa-file"
       }
     };
   },

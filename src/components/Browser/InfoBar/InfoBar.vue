@@ -10,7 +10,7 @@
     <div class="m-d" style="max-width: 400px; margin: auto;">
       <v-toolbar color="white" light flat class="m-over-toolbar">
         <v-btn icon @click="hideInforbar()">
-          <v-icon>close</v-icon>
+          <v-icon>fas fa-times</v-icon>
         </v-btn>
         <v-toolbar-title style="color:black!important" class="m-d-title">Items Details</v-toolbar-title>
         <v-spacer></v-spacer>
@@ -20,7 +20,7 @@
         <v-layout row wrap>
           <v-flex>
             <div v-if="this.$store.state.selectedItems.length <= 0">
-              <v-icon size="100">description</v-icon>
+              <v-icon size="100">fas fa-file-alt</v-icon>
               <h3 class="plz-select headline mb-0">Select file or folder to view its details.</h3>
             </div>
             <div v-if="this.$store.state.selectedItems.length > 0">

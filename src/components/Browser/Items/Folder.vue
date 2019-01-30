@@ -14,7 +14,7 @@
       slot="activator"
     >
       <v-avatar :class="`m-f-pointer`">
-        <v-icon :color="item.color">folder</v-icon>
+        <v-icon :color="item.color">fas fa-folder</v-icon>
       </v-avatar>
       <span :class="`m-f-pointer`">{{ getName }}</span>
     </v-chip>
