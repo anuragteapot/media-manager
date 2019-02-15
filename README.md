@@ -12,8 +12,8 @@
 
 <h2 align="center">Media Manager</h2>
 
-## Note: This project is shifted to this organization `media drive`.
-<a href="https://github.com/media-drive">Media Drive</a>
+## Note: This project is shifted to this organization `OSDrive`.
+<a href="https://github.com/OSDrive">Media Drive</a>
 
 ### Directory layout
 
